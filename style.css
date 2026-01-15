@@ -71,6 +71,19 @@
     width: 100%;
     
 }
+.section1{
+    /* border: 1px solid; */
+    max-width: 1140px;
+    margin:20px auto;
+    display: flex;
+    gap: 85px;
+    flex-wrap: wrap;
+    /* text-align: center; */
+}
+.section1 img{
+    max-width: 100px;
+    width: 100%;
+}
 
 /* code for mobile device */
 @media screen and (max-width:567px){
@@ -97,4 +110,13 @@
         text-align: center;
         padding: 5px;
     }
+    .section1{
+       
+        padding: 20px;
+        justify-content: center;
+        /* display: grid;
+        gap: 35px;
+        grid-template-columns: repeat(4,1fr); */
+    }
+    
 }
