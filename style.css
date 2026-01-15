@@ -76,12 +76,33 @@
     max-width: 1140px;
     margin:20px auto;
     display: flex;
-    gap: 85px;
+    gap: 55px;
     flex-wrap: wrap;
     /* text-align: center; */
 }
 .section1 img{
     max-width: 100px;
+    width: 100%;
+}
+.section2{
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+}
+.sec2-cards{
+    margin: 10px auto;
+      display: grid;
+      grid-template-columns:  repeat(3,1.6fr);
+      gap: 15px;
+}
+.sec2-card{
+    max-width: 329px;
+    text-align: left;
+    box-shadow: 0px 0px 20px rgb(200, 193, 193);
+    border-radius: 10px;
+    padding: 5px;
+}
+.sec2-card img{
     width: 100%;
 }
 
@@ -111,12 +132,21 @@
         padding: 5px;
     }
     .section1{
-       
+       /* border: 1px solid; */
         padding: 20px;
         justify-content: center;
         /* display: grid;
         gap: 35px;
         grid-template-columns: repeat(4,1fr); */
+    }
+    
+    .sec2-cards{
+        /* text-align: center; */
+        margin: 10px auto;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sec2-card{
+        margin: 10px auto;
     }
     
 }
