@@ -118,7 +118,7 @@
 }
 .section3{
     max-width: 1040px;
-    margin: 20px auto;
+    margin: 40px auto;
     justify-content: space-between;
     gap: 30px;
     align-items: center;
@@ -130,10 +130,22 @@
 .sec3-img img{
    width: 100%; 
 }
-
+.sec3-details{
+    max-width: 500px;
+}
+.sec3-details p{
+    margin-top: 20px;
+}
+.sec3-details button{
+      background-color: #E02C6D;
+      border: none;
+      color: #FFFFFF;
+      padding: 10px 40px;
+      margin-top: 30px;
+}
   .footer{
     max-width: 1440px;
-    margin: 20px auto;
+    margin: 0px auto;
     background-color: rgb(5, 5, 43);
     padding-top:50px ;
     padding-bottom:50px ;
