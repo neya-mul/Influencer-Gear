@@ -19,6 +19,23 @@
 .margin-bottom{
     margin-bottom: 20px;
 }
+.btn{
+    transition: background-color 0.3s,color 0.3s;
+}
+.btn:hover{
+    background-color: #FFFFFF;
+    color: #E02C6D;
+    cursor:pointer;
+    border: 0.1px solid #E02C6D;
+}
+.navbar ul li a:hover{
+    color: #E02C6D;
+    font-weight: bold;
+}
+.sec2-card:hover{
+    /* width: calc(100% + 2px); */
+    box-shadow: 1px 1px 20px rgb(39, 37, 37);
+}
 /* main styles */
 .header{
     max-width: 1440px;
@@ -56,6 +73,7 @@
      border-radius: 45px;
      align-items: center;
      font-weight: bolder;
+   
 }
 
 .header-img{
@@ -91,10 +109,12 @@
     text-align: center;
 }
 .sec2-cards{
+    padding: 5px;
     margin: 10px auto;
       display: grid;
       grid-template-columns:  repeat(3,1.6fr);
       gap: 15px;
+       /* animation: blow 3s linear infinite; */
 }
 .sec2-card{
     max-width: 329px;
@@ -102,6 +122,8 @@
     box-shadow: 0px 0px 20px rgb(200, 193, 193);
     border-radius: 10px;
     padding: 5px;
+    background-color: #FFFFFF;
+    transition: box-shadow 0.3s;
 }
 .sec2-card img{
     width: 100%;
@@ -156,6 +178,8 @@
     max-width: 400px;
     margin: 20px auto;
 }
+
+
 /* code for mobile device */
 @media screen and (max-width:567px){
     .header{
