@@ -86,7 +86,7 @@
 }
 .section2{
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 60px auto;
     text-align: center;
 }
 .sec2-cards{
@@ -106,10 +106,38 @@
     width: 100%;
 }
 
+.sec2-btn{
+    text-align: right;
+}
+.sec2-btn button{
+    border: none;
+    color: #E02C6D;
+    background-color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.section3{
+    max-width: 1000px;
+    margin: 100px auto;
+    gap: 70px;
+    align-items: center;
+}
+.section3 p{
+    margin-top: 20px;
+}
+.section3 button{
+    border: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    margin-top: 30px;
+}
+  
+
 /* code for mobile device */
 @media screen and (max-width:567px){
     .header{
-        padding: 5px;
+        padding: 15px;
     }
     .navbar{
         flex-direction: column;
@@ -120,7 +148,7 @@
         margin-bottom: 10px;
     }
     .navbar ul{
-        gap: 10px;
+        gap: 15px;
     }
     .navbar ul li{
         text-align: center;
@@ -148,5 +176,11 @@
     .sec2-card{
         margin: 10px auto;
     }
-    
+  
+    .section3{
+        flex-direction: column-reverse;
+        text-align: center;
+        /* padding: 30px; */
+    }
+ 
 }
